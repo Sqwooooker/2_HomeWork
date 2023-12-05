@@ -1,0 +1,16 @@
+body {
+  margin: auto;
+  padding: auto;
+}
+
+img {
+  width: 200px;
+  height: 100px;
+}
+
+.easily {
+  text-decoration: line-through;
+}
+.tags_table {
+  border: 1px solid black;
+}

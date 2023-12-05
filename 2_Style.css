@@ -1,5 +1,5 @@
 body {
-  margin: auto;
+  margin: 10px;
   padding: auto;
 }
 
@@ -8,9 +8,26 @@ img {
   height: 100px;
 }
 
+#worktable {
+  border: 1px solid black;
+}
+
+tr {
+  border: 1px solid black;
+}
+
+.tag_scroll {
+  scroll-behavior: smooth;
+}
+
 .easily {
   text-decoration: line-through;
 }
-.tags_table {
-  border: 1px solid black;
+
+.coursework {
+  margin-left: 45px;
+}
+
+.gradework {
+  margin-left: 45px;
 }

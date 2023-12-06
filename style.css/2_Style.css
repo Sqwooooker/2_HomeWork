@@ -1,0 +1,35 @@
+body {
+  margin: 10px;
+  padding: auto;
+}
+
+img {
+  width: 200px;
+  height: 100px;
+}
+
+table, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+table .table_strong {
+  text-align: center;
+}
+
+.tag_scroll {
+  scroll-behavior: smooth;
+}
+
+.easily {
+  text-decoration: line-through;
+}
+
+.coursework {
+  margin-left: 45px;
+}
+
+.gradework {
+  margin-left: 45px;
+}

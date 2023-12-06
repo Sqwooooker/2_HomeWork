@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="2_style.css">
+  <link rel="stylesheet" href="style.css/2_Style.css">
   <title>2_HomeWork</title>
 </head>
 <body>
 
-  <p><a href="">Назад</a></p>
+  <p><a href="2_HomeWork_first.html" target="_blank">Назад</a></p>
 
   <h1>
     Информация о курсе
@@ -40,10 +40,11 @@
     Мы поймём назначение <em>основных тегов HTML</em>, сможем <span class="easily">без усилий</span> стилизовать и размещать элементы с помощью CSS и сверстаем наш первый макет.
   </p>
 
-  <div class="coursework">
+  
+  <figure class="coursework">
     <img src="2.7_site1.jpeg" alt="Образец курсовой работы">
-    <p>Курсовая работа</p>
-  </div>
+    <figcaption>Курсовая работа</figcaption>
+  </figure>
 
   <p>
     Вторая часть курса сделает из нас настоящего мастера. Мы изучим сборщики проектов, научимся верстать email-рассылки, разберемся с анимацией на сайте.  
@@ -52,10 +53,10 @@
     Помимо этого, мы сверстаем фрагмент из интернет-магазина - главную страницу, страницу каталога и страницу товара.
   </p>
 
-  <div class="gradework">
+  <figure class="gradework">
     <img src="2.7_site2.jpeg" alt="Образец интернет-магазина">
-    <p>Дипломный проект</p>
-  </div>
+    <figcaption>Дипломный проект</figcaption>
+  </figure>
 
   <h1>Программа курса</h1>
 
@@ -74,41 +75,42 @@
     <li>Курсовая. Мини-проект в портфолио</li>
   </ul>
 
-  <p caption>Таблица тегов</p>
-
-  <table id="worktable">
-    <tr>
-      <th>Блочные</th>
-      <th>Строчные</th>
-    </tr>
-    <tr>
-      <td>&lt;<code>div</code>&gt;Див&lt;<code>/div</code>&gt;</td>
-      <td>Тег <code>div</code> - строительный кирпичик без смысловой нагрузки</td>
-      <td>&lt;<code>span</code>&gt;Спан&lt;<code>/span</code>&gt;</td>
-      <td>Текстовый тег без смысловой нагрузки</td>
-    </tr>
-    <tr>
-      <td>&lt;<code>p</code>&gt;Параграф&lt;<code>/p</code>&gt;</td>
-      <td>Тег p - параграф текста</td>
-      <td>&lt;<code>a href="#"</code> &gt;Ссылка&lt;<code>/a</code>&gt;</td>
-      <td>Тег ссылки</td>
-    </tr>
-    <tr>
-      <td>&lt;<code>h1</code>&gt;Заголовок&lt;<code>/h1</code>&gt;</td>
-      <td>Тег заголовка. Различают 6 типов заголовков - h1-h6</td>
-      <td>&lt;<code>img src="#" alt="Картинка"</code>&gt;</td>
-      <td>Тег картинки</td>
-    </tr>
-    <tr>
-      <td>&lt;<code>ul</code>&gt;Список&lt;<code>/ul</code>&gt;</td>
-      <td>Тег ненумерованного списка. Есть так же нумерованный - ol</td>
-      <td>&lt;<code>i</code>&gt;Курсивный текст&lt;<code>/i</code>&gt;</td>
-      <td>Текст для выделения текста курсивом</td>
-    </tr>
-    <tr>
-      <td><strong>Теперь вы знаете основные HTML-теги!</strong></td>
-    </tr>
-  </table>
+    <table id="worktable">
+      <caption>
+        Таблица тегов
+      </caption>
+      <tr>
+        <td colspan="2" class="table_strong"><strong>Блочные</strong></td>
+        <td colspan="2" class="table_strong"><strong>Блочные</strong></td>
+      </tr>
+      <tr>
+        <td>&lt;<code>div</code>&gt;Див&lt;<code>/div</code>&gt;</td>
+        <td>Тег <code>div</code> - строительный кирпичик без смысловой нагрузки</td>
+        <td>&lt;<code>span</code>&gt;Спан&lt;<code>/span</code>&gt;</td>
+        <td>Текстовый тег без смысловой нагрузки</td>
+      </tr>
+      <tr>
+        <td>&lt;<code>p</code>&gt;Параграф&lt;<code>/p</code>&gt;</td>
+        <td>Тег p - параграф текста</td>
+        <td>&lt;<code>a href="#"</code> &gt;Ссылка&lt;<code>/a</code>&gt;</td>
+        <td>Тег ссылки</td>
+      </tr>
+      <tr>
+        <td>&lt;<code>h1</code>&gt;Заголовок&lt;<code>/h1</code>&gt;</td>
+        <td>Тег заголовка. Различают 6 типов заголовков - h1-h6</td>
+        <td>&lt;<code>img src="#" alt="Картинка"</code>&gt;</td>
+        <td>Тег картинки</td>
+      </tr>
+      <tr>
+        <td>&lt;<code>ul</code>&gt;Список&lt;<code>/ul</code>&gt;</td>
+        <td>Тег ненумерованного списка. Есть так же нумерованный - ol</td>
+        <td>&lt;<code>i</code>&gt;Курсивный текст&lt;<code>/i</code>&gt;</td>
+        <td>Текст для выделения текста курсивом</td>
+      </tr>
+      <tr>
+        <td colspan="4" class="table_strong"><strong>Теперь вы знаете основные HTML-теги!</strong></td>
+      </tr>
+    </table>
 
 </body>
 </html>

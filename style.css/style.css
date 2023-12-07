@@ -41,7 +41,6 @@
 body {
   margin: 0;
   font-family: 'Gilroy', sans-serif;
-  background-color: black;
 }
 
 a {
@@ -49,14 +48,33 @@ a {
   text-decoration: none;
 }
 
+.main_content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #222020;
+}
+
 .Title_skillbox {
-  color: blue;
+  color: white;
+
+  font-family: 'Graphik LCG', sans-serif;
 }
 
 .download {
   color: white;
+  background-color: #2f1ce4;
+
+  border: 3px solid #2f1ce4;
+  padding: 20px;
 }
 
 .more {
   color: white;
+  background-color: #11ffee00;
+
+  border: 3px solid white;
+  padding: 20px;
 }
